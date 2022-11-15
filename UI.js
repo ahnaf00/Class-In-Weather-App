@@ -89,7 +89,7 @@ class UI {
         } = this.#loadSelectors()
         const {
             name, 
-            main = { temp, pressure, humidity},
+            main : { temp, pressure, humidity},
             weather,
         } =  data
         cityInfoElm.textContent = name
